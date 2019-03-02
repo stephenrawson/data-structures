@@ -18,8 +18,8 @@ class TreeHeight:
                         while i != -1:
                                 height += 1
                                 i = self.parent[i]
-                        maxHeight = max(maxHeight, height);
-                return maxHeight;
+                        maxHeight = max(maxHeight, height)
+                return maxHeight
 
 def main():
   tree = TreeHeight()
